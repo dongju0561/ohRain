@@ -18,17 +18,40 @@ class mainViewController: UIViewController {
     @IBOutlet weak var rainProbability: UILabel!
     @IBOutlet weak var actionLbl: UILabel!
     @IBOutlet weak var tempLbl: UILabel!
+    @IBOutlet weak var weatherCondition: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.hidesBackButton = true
-        let settingTime : String = "11:11"
+        if let safeTime = time{
+            let selectedTime = Time.ChangeTimeToSting(t: safeTime)
+            timeLbl.text = selectedTime
+        }
+        cityLbl.text = city?.en
+        createSpinnerView() // Acitvity Indicator
+        navigationItem.hidesBackButton = true // Remove back button
         weatherManager.delegate = self
         weatherManager.fetchWheather(cityName: city!)
-        timeLbl.text = settingTime
     }
     
     @IBAction func pressResettingButton(_ sender: UIButton) {
         self.navigationController?.popToRootViewController(animated: true) //Go to rootViewController
+    }
+    
+    func createSpinnerView() {
+        let child = SpinnerViewController()
+
+        // add the spinner view controller
+        addChild(child)
+        child.view.frame = view.frame
+        view.addSubview(child.view)
+        child.didMove(toParent: self)
+
+        // wait two seconds to simulate some work happening
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            // then remove the spinner view controller
+            child.willMove(toParent: nil)
+            child.view.removeFromSuperview()
+            child.removeFromParent()
+        }
     }
 }
 
@@ -41,7 +64,8 @@ extension mainViewController: WeatherManagerDelegate{
             self.actionLbl.text = action
             self.rainProbability.text = "\(weather.getPct)%"
             self.tempLbl.text = String(weather.tempString)
-            self.notificationController.addNotification(weather, 23, 36)
+            self.notificationController.addNotification(weather, time!.hour,time!.min)
+            self.weatherCondition.image = weather.weatherImage
         }
     }
     

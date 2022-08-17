@@ -12,6 +12,7 @@
 		FA36D30F28A28EC3000B5F8A /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA36D30E28A28EC3000B5F8A /* mainViewController.swift */; };
 		FA36D31428A28EC8000B5F8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA36D31328A28EC8000B5F8A /* Assets.xcassets */; };
 		FA36D31728A28EC8000B5F8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA36D31528A28EC8000B5F8A /* LaunchScreen.storyboard */; };
+		FA7C051228AD4B0B0098FF98 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C051128AD4B0B0098FF98 /* SpinnerViewController.swift */; };
 		FAB6930A28A3D10A00763B37 /* setCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6930928A3D10A00763B37 /* setCityViewController.swift */; };
 		FAB6930C28A3D11D00763B37 /* setTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6930B28A3D11D00763B37 /* setTimeViewController.swift */; };
 		FAB6930E28A3D7A000763B37 /* CityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6930D28A3D7A000763B37 /* CityData.swift */; };
@@ -33,6 +34,7 @@
 		FA36D31328A28EC8000B5F8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA36D31628A28EC8000B5F8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA36D31828A28EC8000B5F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7C051128AD4B0B0098FF98 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		FAB6930928A3D10A00763B37 /* setCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setCityViewController.swift; sourceTree = "<group>"; };
 		FAB6930B28A3D11D00763B37 /* setTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTimeViewController.swift; sourceTree = "<group>"; };
 		FAB6930D28A3D7A000763B37 /* CityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityData.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				FAB6930928A3D10A00763B37 /* setCityViewController.swift */,
 				FAB6930B28A3D11D00763B37 /* setTimeViewController.swift */,
 				FA36D30E28A28EC3000B5F8A /* mainViewController.swift */,
+				FA7C051128AD4B0B0098FF98 /* SpinnerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				FABAC19928A93A220067F886 /* TimeBrain.swift in Sources */,
 				FA36D30D28A28EC3000B5F8A /* SceneDelegate.swift in Sources */,
 				FABAC19728A7FC070067F886 /* WeatherModel.swift in Sources */,
+				FA7C051228AD4B0B0098FF98 /* SpinnerViewController.swift in Sources */,
 				FAB6931128A3E1AF00763B37 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

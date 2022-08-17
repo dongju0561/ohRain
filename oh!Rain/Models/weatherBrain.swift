@@ -11,13 +11,13 @@ struct WeatherBrain {
     
     static func isItRain( pct : Double) -> String{
         if pct >= 51{
-            return "우산을 챙기세요"
+            return "우산을 챙기세요 🌂"
         }
         if pct == 50{
-            return "너의 운에 맡길게"
+            return "너의 운에 맡길게 🙏"
         }
         else{
-            return "양손 가볍게 좋은 하루 되세요"
+            return "양손 가볍게 😀"
         }
     }
 }

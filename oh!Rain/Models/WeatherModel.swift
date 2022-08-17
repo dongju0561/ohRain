@@ -23,8 +23,6 @@ struct WeatherModel{
     
     var tempString: String{
         get{
-            
-            print(temp)
             let temp = String(format: "%.1f˚C", temp)
             return temp
         }

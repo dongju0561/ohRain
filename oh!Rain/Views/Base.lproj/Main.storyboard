@@ -139,7 +139,7 @@
                                         <rect key="frame" x="0.0" y="98" width="414" height="193.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IKq-oD-O1x">
-                                                <rect key="frame" x="13" y="12" width="358" height="169.5"/>
+                                                <rect key="frame" x="24" y="12" width="358" height="169.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4w1-Zu-jrj">
                                                         <rect key="frame" x="0.0" y="40.5" width="203" height="89"/>
@@ -172,14 +172,18 @@
                                                         </constraints>
                                                     </imageView>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="358" id="C7G-La-VF4"/>
+                                                    <constraint firstAttribute="height" constant="169.5" id="XWe-2m-4Ds"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="IKq-oD-O1x" secondAttribute="trailing" constant="43" id="71b-E5-Vml"/>
-                                            <constraint firstItem="IKq-oD-O1x" firstAttribute="top" secondItem="rIj-bP-MrP" secondAttribute="top" constant="12" id="Dza-yF-NDK"/>
-                                            <constraint firstAttribute="bottom" secondItem="IKq-oD-O1x" secondAttribute="bottom" constant="12" id="i75-2A-Vos"/>
-                                            <constraint firstItem="IKq-oD-O1x" firstAttribute="leading" secondItem="rIj-bP-MrP" secondAttribute="leading" constant="13" id="jRn-3j-z1d"/>
+                                            <constraint firstItem="IKq-oD-O1x" firstAttribute="top" secondItem="rIj-bP-MrP" secondAttribute="top" constant="12" id="MrU-6y-krM"/>
+                                            <constraint firstAttribute="bottom" secondItem="IKq-oD-O1x" secondAttribute="bottom" constant="12" id="Mt7-DJ-qOF"/>
+                                            <constraint firstAttribute="trailing" secondItem="IKq-oD-O1x" secondAttribute="trailing" constant="32" id="T0X-T6-Eeq"/>
+                                            <constraint firstItem="IKq-oD-O1x" firstAttribute="leading" secondItem="rIj-bP-MrP" secondAttribute="leading" constant="24" id="VFr-vn-Ria"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5iB-o4-hbJ">
@@ -293,6 +297,7 @@
                         <outlet property="rainProbability" destination="T0f-Sh-lzo" id="9mM-h2-eAE"/>
                         <outlet property="tempLbl" destination="lYa-TB-2cx" id="gRq-TL-THF"/>
                         <outlet property="timeLbl" destination="3TD-n5-Dzt" id="RfY-Tc-1gw"/>
+                        <outlet property="weatherCondition" destination="0sH-84-pV8" id="gMX-7M-HQW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qjb-3d-Nsb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

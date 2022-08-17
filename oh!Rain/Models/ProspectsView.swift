@@ -28,7 +28,6 @@ struct ProspectsView {
 
             let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
             center.add(request)
-            print("it worked")
         }
         //request authorization
         center.getNotificationSettings { settings in

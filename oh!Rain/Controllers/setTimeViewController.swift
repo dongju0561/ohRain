@@ -9,7 +9,7 @@ import UIKit
 class setTimeViewController: UIViewController  {
     
     var city : City?
-    var time : Time?
+    var time : Time! = Time(hour: 8, min: 0)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,8 +19,8 @@ class setTimeViewController: UIViewController  {
         let now = sender.date // your date
         let dateComponents = Calendar.current.dateComponents([.hour, .minute], from: now)
         time = Time(hour: dateComponents.hour!, min: dateComponents.minute!)
-        
-        print(time!.hour)
+        print(time.hour)
+
     }
     
     
