@@ -9,4 +9,5 @@ Don't spoil your mood cuz of rain (:
 
 ___
  ### App icon
-<img src="https://user-images.githubusercontent.com/77201628/186171414-0b146b78-e7b2-47ad-b3fb-77ef0daa386c.png"width="400">
+<img src="https://user-images.githubusercontent.com/77201628/186175912-882d63c6-773a-4f15-a4ff-a388bf9e8fd3.png" width="400">
+
