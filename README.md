@@ -1,5 +1,6 @@
 # 🌧 oh!Rain
-### If you want to get notification whether bring umbrella or not, this app will notify 
+### Overview
+If you want to get notification whether bring umbrella or not, this app will notify 
 
 1. Select the city where you live
 2. Select the time you usually go out
