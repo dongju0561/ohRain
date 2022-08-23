@@ -11,3 +11,8 @@ ___
  ### App icon
 <img src="https://user-images.githubusercontent.com/77201628/186175912-882d63c6-773a-4f15-a4ff-a388bf9e8fd3.png" width="400">
 
+___ 
+
+<img src="https://user-images.githubusercontent.com/77201628/186186294-c99136cd-c288-46ad-a434-c5817623f446.gif" width="400">
+
+
