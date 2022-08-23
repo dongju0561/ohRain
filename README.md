@@ -1,4 +1,4 @@
-# ohRain
+# oh!Rain
 ### If you want to get notification whether bring umbrella or not, then use this app!
 
 1. Select the city where you live
