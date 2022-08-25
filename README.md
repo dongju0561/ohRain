@@ -1,10 +1,10 @@
 # 🌧 oh!Rain
 ### Overview
-If you want to get notification whether it's rain or not, this app will notify 
+If you want to know whether it's rain or not, this app will notify you
 
 1. Select the city where you live
 2. Select the time you usually go out
-3. This app will notify whether you should bring a umbrella on the time you select!!
+3. This app will notify whether you should bring an umbrella on the time you select!!
 
 Don't spoil your mood cuz of rain 😀🌂
 
