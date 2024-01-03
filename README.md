@@ -1,12 +1,13 @@
 # 🌧 oh!Rain
-### Overview
-If you want to know whether it's rain or not, this app will notify you
+## Overview
+oh!Rain 앱은 날씨 API를 통해 강수확률을 받아서 우산을 챙길지 말지에 대한 정보를 알려주는 앱입니다.
 
-1. Select the city where you live
-2. Select the time you usually go out
-3. This app will notify whether you should bring an umbrella on the time you select!!
+## Tech stack
+- UIKit(Storyboard)
+- URLSession
+- UserNotifications
+- MVC
 
-Don't spoil your mood cuz of rain 😀🌂
 
 ___
  ### App icon
